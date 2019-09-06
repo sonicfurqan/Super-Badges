@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>apiaibot2@gmail.com</contactEmail>
+    <label>ProjectService</label>
+    <oauthConfig>
+        <callbackUrl>https://sb-integration-pms.herokuapp.com/oauth/_callback</callbackUrl>
+        <consumerKey>3MVG9G9pzCUSkzZul9gmb055FMWdIhjqDrowZRxSyxVmzzEPb5gJT7yJ7xeJjEMmvuAHEydpVLjPaysi7Zb9q</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Full</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>
