@@ -14,14 +14,11 @@ Deploy
 # Step 3
 
 1. Create lds message channel BoatMessageChannel
-2. Create app Friend Ships  
-3. Create page Friend Ships
 
 Deploy 
 
 1.  `force-app\main\default\messageChannels\BoatMessageChannel.messageChannel-meta.xml`
-2. `force-app\main\default\applications\Friend_Ships.app-meta.xml`
-3. `force-app\main\default\flexipages\Friend_Ships.flexipage-meta.xml`
+
 
 # Step 4
 
@@ -32,12 +29,24 @@ Deploy
 1. `force-app\main\default\classes\BoatDataService.cls`
 
 
-# Step 5
+# Step 5-14
 
-1. Create lwc component "boatSearch","boatSearchForm","boatTile","boatSearchResults","boatsNearMe","boatDetailTabs","boatAddReviewForm","boatReviews"
+1. Create lwc component "boatSearch","boatSearchForm","boatTile","boatSearchResults","boatsNearMe","boatDetailTabs","boatAddReviewForm","boatReviews","similarBoats"
 2. retrieve "boatMap","fiveStarRating"
 
 Deploy
 
 1. `force-app\main\default\lwc`
 
+
+# Step 15
+
+1. Modify Boat_Record_Page
+2. Create app Friend Ships  
+3. Create page Friend Ships
+
+
+Deploy
+
+1. `force-app\main\default\applications\Friend_Ships.app-meta.xml`
+2. `force-app\main\default\flexipages`
