@@ -14,7 +14,7 @@ Deploy
 # Step 3
 
 1. Create lds message channel BoatMessageChannel
-2. Create app Friend Ships
+2. Create app Friend Ships  
 3. Create page Friend Ships
 
 Deploy 
@@ -35,7 +35,7 @@ Deploy
 # Step 5
 
 1. Create lwc component "boatSearch","boatSearchForm","boatTile","boatSearchResults","boatsNearMe","boatDetailTabs","boatAddReviewForm","boatReviews"
-2. retrieve boatMap
+2. retrieve "boatMap","fiveStarRating"
 
 Deploy
 
